@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
